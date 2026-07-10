@@ -1,4 +1,4 @@
-markdown_content = """# 🕹️ DIY Custom Joystick & Mouse with STM32F411CE (BlackPill)
+# 🕹️ DIY Custom Joystick & Mouse with STM32F411CE (BlackPill)
 
 This project transforms an STM32F411CE (BlackPill) and a standard analog joystick module into a highly customizable, cross-functional input device. By bypassing the native USB HID endpoint limitations of the STM32, this project uses a highly stable **Serial-to-OS architecture**, allowing you to use the hardware as a PC Mouse, an Xbox 360 Gamepad, or whatever you want to program it to be!
 
@@ -41,9 +41,3 @@ The project is divided into two components working as a team:
 * **Libraries:** [CircuitPython Libraries Bundle](https://circuitpython.org/libraries)
 * **Flasher Tool:** [STM32CubeProgrammer](https://www.st.com/content/st_com/en/stm32cubeprogrammer.html)
 * **IDE:** [Thonny](https://thonny.org/)
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(markdown_content)
-
-print("File generated successfully.")
