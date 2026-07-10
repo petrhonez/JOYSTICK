@@ -10,3 +10,6 @@ https://circuitpython.org/libraries
 https://www.st.com/content/st_com/en/stm32cubeprogrammer.html
 
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/8632cd4d-f6ca-4f30-bf63-cf3f0dc92934" />
+
+<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/aa8d747c-a112-440e-b130-08176ad3c4f6" />
+
