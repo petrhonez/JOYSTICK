@@ -12,6 +12,8 @@ https://www.st.com/content/st_com/en/stm32cubeprogrammer.html
 https://thonny.org/
 
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/8632cd4d-f6ca-4f30-bf63-cf3f0dc92934" />
-
 <img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/aa8d747c-a112-440e-b130-08176ad3c4f6" />
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/a7d66192-bda5-4954-b32a-a324a4dd8e07" />
+
+It´s required 9 jumpers cable and a USB to USB-c cable
 
