@@ -14,9 +14,9 @@ This isn't just a basic joystick. Because the heavy lifting (interpreting inputs
 * **9x Jumper Cables** (Female-to-Female or Male-to-Female depending on your pins)
 * 1x **USB to USB-C Cable** (for power and data transfer)
 
-## 📸 Project Gallery
+## 📸 Project Components
 <div align="center">
-  <img width="100" alt="Joystick Setup View 1" src="https://github.com/user-attachments/assets/8632cd4d-f6ca-4f30-bf63-cf3f0dc92934" /><img width="150" alt="Joystick Setup View 2" src="https://github.com/user-attachments/assets/aa8d747c-a112-440e-b130-08176ad3c4f6" /><img width="102.4" alt="Joystick Setup View 3" src="https://github.com/user-attachments/assets/a7d66192-bda5-4954-b32a-a324a4dd8e07" />
+  <img width="200" alt="Joystick Setup View 1" src="https://github.com/user-attachments/assets/8632cd4d-f6ca-4f30-bf63-cf3f0dc92934" /><img width="300" alt="Joystick Setup View 2" src="https://github.com/user-attachments/assets/aa8d747c-a112-440e-b130-08176ad3c4f6" /><img width="204.8" alt="Joystick Setup View 3" src="https://github.com/user-attachments/assets/a7d66192-bda5-4954-b32a-a324a4dd8e07" />
 </div>
 
 ## 🧠 Architecture Overview
