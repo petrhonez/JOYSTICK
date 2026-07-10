@@ -16,7 +16,7 @@ This isn't just a basic joystick. Because the heavy lifting (interpreting inputs
 
 ## 📸 Project Components
 <div align="center">
-  <img width="577" height="433" alt="image" src="https://github.com/user-attachments/assets/7a1e9d37-7e84-4d56-8f5c-85987d3397f0" /><img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/33dfb6ce-2420-4040-a559-2ce6e873bd13" /><img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/49f9160b-c55a-4e61-8e98-9702df363b64" />
+  <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/68c51217-a486-4d28-9e8d-15a3268fcf2a" /><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/33dfb6ce-2420-4040-a559-2ce6e873bd13" /><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/49f9160b-c55a-4e61-8e98-9702df363b64" />
 
 </div>
 
