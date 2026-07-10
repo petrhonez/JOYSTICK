@@ -3,7 +3,6 @@ import board
 import analogio
 import digitalio
 
-# Configuração dos Pinos
 eixo_x = analogio.AnalogIn(board.A0)
 eixo_y = analogio.AnalogIn(board.A1)
 
