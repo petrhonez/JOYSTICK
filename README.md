@@ -1,26 +1,26 @@
-# ▶ DIY Custom Joystick & Mouse with STM32F411CE (BlackPill)
+# ⬟ DIY Custom Joystick & Mouse with STM32F411CE (BlackPill)
 
 This project transforms an STM32F411CE (BlackPill) and a standard analog joystick module into a highly customizable, cross-functional input device. By bypassing the native USB HID endpoint limitations of the STM32, this project uses a highly stable **Serial-to-OS architecture**, allowing you to use the hardware as a PC Mouse, an Xbox 360 Gamepad, or whatever you want to program it to be!
 
-## ▶ The Power of Customization
+## ⬟ The Power of Customization
 This isn't just a basic joystick. Because the heavy lifting (interpreting inputs and triggering OS events) is done by Python scripts on your computer, the possibilities are endless:
 * **Endlessly Expandable:** Want to add more buttons, sliders, or sensors? Just wire them to the BlackPill and add a single variable to the `print()` statement in the STM32 firmware.
 * **Ergonomic Adaptability:** The current mouse script features a software-based **90-degree axis rotation**. It maps physical inputs perfectly to how the module fits comfortably in your hand, without needing to desolder or rebuild the hardware.
 * **Multi-Role Device:** Switch from a gaming device (Xbox 360 emulator) to a productivity tool (Mouse) simply by stopping one Python script on your PC and running another. No need to reflash the microcontroller!
 
-## ▶ Hardware Requirements
+## ⬟ Hardware Requirements
 * 1x **STM32F411CE (WeAct BlackPill)**
 * 1x **Analog Joystick Module** (e.g., KY-023)
 * **9x Jumper Cables** (Female-to-Female or Male-to-Female depending on your pins)
 * 1x **USB to USB-C Cable** (for power and data transfer)
 
-## ▶ Project Components
+## ⬟ Project Components
 <div align="center">
   <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/68c51217-a486-4d28-9e8d-15a3268fcf2a" /><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/33dfb6ce-2420-4040-a559-2ce6e873bd13" /><img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/49f9160b-c55a-4e61-8e98-9702df363b64" />
 
 </div>
 
-## ▶ Architecture Overview
+## ⬟ Architecture Overview
 The project is divided into two components working as a team:
 
 1. **The Hardware (`stm32_circuitpython/`)**:
@@ -34,7 +34,7 @@ The project is divided into two components working as a team:
     * **`mouse_joystick.py`**: Uses the `pynput` library to translate Serial data into cursor movements and left-clicks.
     * **`xbox_joystick.py`**: Uses the `vgamepad` library to emulate a physical Xbox 360 controller on a driver level, guaranteeing 100% native game compatibility.
 
-## ▶ Useful Links & Tools
+## ⬟ Useful Links & Tools
 * **Hardware Reference:** [WeAct Black Pill V3.0 (STM32-base)](https://stm32-base.org/boards/STM32F401CEU6-WeAct-Black-Pill-V3.0.html)
 * **Firmware:** [CircuitPython for STM32F411CE](https://circuitpython.org/board/stm32f411ce_blackpill/)
 * **Libraries:** [CircuitPython Libraries Bundle](https://circuitpython.org/libraries)
